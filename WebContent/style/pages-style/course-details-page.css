@@ -1,0 +1,91 @@
+.course-details-container {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 1239px;
+}
+
+.course-header {
+    display: flex;
+    flex-direction: row;
+    background-color: #FFFFFF;
+    height: 160px;
+    min-width: 760px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.36);
+    margin-top: 40px;
+    padding-top: 20px;
+}
+
+.course-img {
+    border: 2px solid #1ABC9C;
+    height: 100px;
+}
+
+.course-details {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: stretch;
+}
+
+.course-description {
+    display: flex;
+    flex: 1 0 auto;
+}
+
+.course-content {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    color: #888888;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.36);
+    min-width: 760px;
+    margin-top: 30px;
+    padding-bottom: 40px;
+}
+
+.main-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    background-color: #1ABC9C;
+    height: 60px;
+    margin: 0;
+}
+
+.course-stats {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 0 100px 0 100px;
+}
+
+.lesson-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFFFFF;
+    background-color: #1ABC9C;
+    height: 40px;
+    padding: 0 100px 0 100px;
+    margin-top: 20px;
+}
+
+.question-icon {
+    font-size: 20px;
+    margin-right: 5px;
+    margin-top: 2px;
+}
+
+.tests-per-lesson {
+    display: flex;
+    flex-direction: row;
+}
+
+.subscribe-button {
+    height: 50px;
+    width: 200px;
+    margin-top: 50px;
+}

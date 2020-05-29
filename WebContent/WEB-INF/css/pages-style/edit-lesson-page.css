@@ -1,0 +1,67 @@
+.edit-lesson-container {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 1239px;
+}
+
+.editing-lesson {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #1ABC9C;
+    background-color: #FFFFFF;
+    min-width: 760px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.36);
+    margin-top: 40px;
+    padding: 40px 90px 40px 90px;
+}
+
+.header {
+    color: #1ABC9C;
+    width: 100%;
+    text-align: center;
+}
+
+.lesson-edit-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 100%;
+    color: #888888;
+}
+
+.lesson-edit-form input {
+    height: 34px;
+}
+
+.submit-button {
+    text-align: right;
+    padding-top: 30px;
+}
+
+.submit-button button {
+    height: 35px;
+    width: 210px;
+}
+
+.delete-button {
+    text-align: right;
+    padding: 10px 0 30px 0;
+}
+
+.delete-button button {
+    height: 25px;
+    width: 180px;
+}
+
+.adding-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.adding-buttons button {
+    height: 25px;
+    width: 220px;
+}

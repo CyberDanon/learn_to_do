@@ -1,0 +1,119 @@
+.edit-course-container {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 1239px;
+}
+
+.editing-course {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #1ABC9C;
+    background-color: #FFFFFF;
+    min-width: 760px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.36);
+    margin-top: 40px;
+    padding: 40px 90px 40px 90px;
+}
+
+.editing-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 100%;
+    color: #888888;
+}
+
+.editing-form input {
+    height: 34px;
+    margin-bottom: 20px;
+}
+
+.editing-form textarea {
+    margin-bottom: 20px;
+}
+
+.editing-form button {
+    height: 35px;
+    width: 210px;
+}
+
+.submit-button {
+    text-align: right;
+    padding-top: 20px;
+}
+
+.lessons-container, .global-tests-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+    width: 100%;
+}
+
+.info-icon {
+    padding: 4px 0 0 5px;
+    font-size: 20px;
+}
+
+.lesson, .global-test {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.lesson-header, .global-test-header, .local-test-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+.lesson-header {
+    width: 100%;
+    background-color: #1ABC9C;
+}
+
+.local-test-header {
+    width: 80%;
+    background-color: #888888;
+    /*background-color: #1ad7b6;*/
+}
+
+.global-test-header {
+    width: 100%;
+    background-color: #888888;
+}
+
+.name {
+    width: 60%;
+    padding: 10px 20px;
+}
+
+.editing-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.editing-buttons button {
+    height: 100%;
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.editing-buttons button:hover {
+    background-color: #222222;
+}
+
+.add-item-button {
+    height: 30px;
+    width: 190px;
+}
+
+

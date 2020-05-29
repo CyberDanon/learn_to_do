@@ -1,0 +1,155 @@
+
+/* ГЛАВНЫЕ СТИЛИ */
+
+html, body {
+    min-height: 100%;
+    min-width: 768px;
+}
+
+/* кому нужен флекс и расположение в столбик */
+html, body, header, footer, .content {
+    display: flex;
+    flex-direction: column;
+}
+
+/* кто должен расширяться */
+html, body, .content {
+    flex: 1 1 auto;
+    min-height: 100%;
+}
+
+/* кто не должен расширяться */
+header, footer {
+    flex: 0 0 auto;
+}
+
+body {
+    color: #888888;
+}
+
+button {
+    background-color: #1ABC9C;
+    color: #FFFFFF;
+    border: none;
+}
+
+button:hover {
+    background-color: #222222;
+}
+
+button:focus {
+    outline: none;
+}
+
+a {
+    color: #1ABC9C;
+}
+
+a:hover {
+    color: #1A7F5E;
+    text-decoration: none;
+}
+
+input, textarea {
+    border: 2px solid #1ABC9C;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.no-selection {
+    user-select: none;
+}
+
+/*класс для изменения цвета кнопки в зависимости от текущей страницы*/
+.active {
+    background-color: #222222;
+}
+
+/* СТИЛИ ШАПКИ */
+header span {
+    color: #1ABC9C;
+}
+
+.profile-section {
+    background-color: #F4F4F4;
+    height: 30px;
+    padding-top: 4px;
+}
+
+.profile-section a {
+    color: #888888;
+    margin-right: 25px;
+}
+
+.profile-section a:hover {
+    color: #888888;
+}
+
+.user-icon, .notification-icon {
+    margin-right: 5px;
+}
+
+.header-logo {
+    background-color: #FFFFFF;
+    height: 150px;
+    padding-top: 50px;
+}
+
+.header-logo h1 {
+    color: #888888;
+}
+
+/*.header-logo a{*/
+/*    color: rgba(255, 255, 255, 0);*/
+/*}*/
+
+.wallet {
+    text-align: right;
+    font-size: 26px;
+}
+
+/* СТИЛИ МЕНЮ */
+
+/* меню должно сжиматься, но не расширяться */
+.main-menu {
+    background-color: #1ABC9C;
+    display: flex;
+    flex-direction: row;
+    flex: 0 1 auto;
+    /*min-width: 760px;*/
+}
+
+.main-menu button {
+    height: 50px;
+    width: 20%;
+    min-width: 135px;
+    max-width: 200px;
+}
+
+/* СТИЛИ ФУТЕРА */
+footer {
+    color: #FFFFFF;
+    background-color: #222222;
+    margin-top: 450px;
+}
+
+.top {
+    background-color: #333333;
+    height: 250px;
+    font-size: 18px;
+    padding-top: 60px;
+}
+
+.bottom {
+    background-color: #000000;
+    height: 50px;
+    padding-top: 10px;
+}

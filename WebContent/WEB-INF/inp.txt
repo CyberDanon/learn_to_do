@@ -1,0 +1,25 @@
+<filter>
+		<filter-name>CommandAccessFilter</filter-name>
+		<filter-class>ua.nure.mikisha.SummaryTask4.web.filter.CommandAccessFilter</filter-class>
+		<init-param>
+			<param-name>administrator</param-name>
+			<param-value>answer_question forward_answer unban_course unban_user ban_user ban_course</param-value>
+		</init-param>
+		<init-param>
+			<param-name>common</param-name>
+			<param-value>become_teacher become_student become_admin personal ask users_top faq forward_pass_test update_user unsubscribe subscribe safe_unsubscribe rate_course pass_test get_messages_command get_course_info_command get_all_users_command forward_to_notificate forward_change_pass filter donate_user create_message display_course display_message display_test display_theorical</param-value>
+		</init-param>
+		<init-param>
+			<param-name>teacher</param-name>
+			<param-value>create_course forward_to_update_theory forward_to_create_course update_theory update_test update_course notificate_subscribers get_theory_info_command get_test_info forward_to_update_theory forward_to_update_test forward_to_update_course create_question create_answer create_test delete_answer delete_message delete_question delete_test delete_theory</param-value>
+		</init-param>
+		<init-param>
+			<param-name>out-of-control</param-name>
+			<param-value>main logout forward_login error login create_user error_show forward_register register</param-value>
+		</init-param>
+	</filter>
+	
+	<filter-mapping>
+		<filter-name>CommandAccessFilter</filter-name>
+		<servlet-name>Controller</servlet-name>
+	</filter-mapping>

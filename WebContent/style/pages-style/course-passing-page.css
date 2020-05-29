@@ -1,0 +1,183 @@
+.course-passing-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.course-contents-container, .element-content-container, .course-title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: #1ABC9C;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.36);
+    margin-top: 40px;
+}
+
+.course-contents-container {
+    flex: 0 1 350px;
+    min-width: 250px;
+    margin-right: 5px;
+    padding: 40px 0;
+}
+
+.element-content-container, .course-title-container {
+    flex: 0 1 1450px;
+    color: #888888;
+    min-width: 510px;
+    padding: 40px 30px;
+}
+
+.course-title-container {
+    padding: 100px 150px;
+    font-size: 18px;
+    justify-content: center;
+}
+
+.course-title-description {
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+.header, .small-header {
+    color: #1ABC9C;
+    width: 100%;
+    text-align: center;
+}
+
+.small-header {
+    margin: 15px 0;
+}
+
+.lesson-container {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.lesson-button, .test-button, .title-page-button {
+    width: 100%;
+    min-height: 30px;
+}
+
+.title-page-button {
+    margin: 15px 0;
+}
+
+.test-button {
+    background-color: #888888;
+}
+
+.manage-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    padding-top: 40px;
+}
+
+.manage-buttons button {
+    width: 200px;
+}
+
+.question {
+    width: 100%;
+    padding-top: 40px;
+}
+
+.question-header {
+    color: #FFFFFF;
+    background-color: #1ABC9C;
+    text-align: left;
+    padding: 5px 20px;
+}
+
+.answer {
+    padding: 25px 40px 0 40px;
+}
+
+.up {
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.60);
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.36);
+    padding: 10px 15px;
+    bottom: 100px;
+    right: 20px;
+    z-index: 800;
+}
+
+.up:hover, .up a:hover {
+    background-color: #222222;
+    color: #FFFFFF;
+}
+
+#reviewStars-input input:checked ~ label, #reviewStars-input label, #reviewStars-input label:hover, #reviewStars-input label:hover ~ label {
+    background: url('http://positivecrash.com/wp-content/uploads/ico-s71a7fdede6.png') no-repeat;
+}
+
+#reviewStars-input {
+
+    /*fix floating problems*/
+    overflow: hidden;
+    *zoom: 1;
+    /*end of fix floating problems*/
+
+    position: relative;
+    float: left;
+}
+
+#reviewStars-input input {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0;
+
+    width: 43px;
+    height: 40px;
+
+    position: absolute;
+    top: 0;
+    z-index: 0;
+}
+
+#reviewStars-input input:checked ~ label {
+    background-position: 0 -40px;
+    height: 40px;
+    width: 43px;
+}
+
+#reviewStars-input label {
+    background-position: 0 0;
+    height: 40px;
+    width: 43px;
+    float: right;
+    cursor: pointer;
+    margin-right: 10px;
+
+    position: relative;
+    z-index: 1;
+}
+
+#reviewStars-input label:hover, #reviewStars-input label:hover ~ label {
+    background-position: 0 -40px;
+    height: 40px;
+    width: 43px;
+}
+
+#reviewStars-input #star-0 {
+    left: 0;
+}
+#reviewStars-input #star-1 {
+    left: 53px;
+}
+#reviewStars-input #star-2 {
+    left: 106px;
+}
+#reviewStars-input #star-3 {
+    left: 159px;
+}
+#reviewStars-input #star-4 {
+    left: 212px;
+}
+#reviewStars-input #star-5 {
+    left: 265px;
+}

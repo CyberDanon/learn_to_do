@@ -1,0 +1,67 @@
+/* СТИЛИ КОНТЕНТА SEARCH PAGE */
+.search {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 1239px;
+}
+
+.search-form {
+    display: flex;
+    flex-direction: row;
+    margin: 30px 0 30px 0;
+    justify-content: center;
+}
+
+.search-form input {
+    width: 350px;
+    height: 35px;
+}
+
+.search-form button {
+    width: 100px;
+    height: 35px;
+}
+
+.search-result {
+    display: flex;
+    flex-direction: row;
+    color: #888888;
+    background-color: #FFFFFF;
+    height: 200px;
+    min-width: 760px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.36);
+    margin-top: 40px;
+    padding-top: 20px;
+}
+
+.search-result:hover {
+    color: #888888;
+}
+
+.course-img {
+    border: 2px solid #1ABC9C;
+    height: 100px;
+}
+
+.course-details {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: stretch;
+}
+
+.course-description {
+    display: flex;
+    flex: 1 0 auto;
+}
+
+.course-stats {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.course-stats p {
+    margin-right: 50px;
+}

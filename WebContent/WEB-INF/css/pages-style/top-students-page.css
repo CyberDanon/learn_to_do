@@ -1,0 +1,29 @@
+/* СТИЛИ КОНТЕНТА TOP-STUDENTS PAGE */
+.top-list {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 900px;
+}
+
+.top-list-header {
+    background-color: #FFFFFF;
+    color: #1ABC9C;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.36);
+    height: 110px;
+    min-width: 760px;
+    margin-top: 60px;
+    padding-top: 40px;
+}
+
+.top-list-element {
+    background-color: #FFFFFF;
+    color: #888888;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.36);
+    height: 90px;
+    min-width: 760px;
+    margin-top: 30px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+}

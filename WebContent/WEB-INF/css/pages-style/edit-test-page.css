@@ -1,0 +1,102 @@
+.edit-test-container {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 900px;
+}
+
+.editing-test {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #1ABC9C;
+    background-color: #FFFFFF;
+    min-width: 760px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.36);
+    margin-top: 40px;
+    padding: 40px 90px 40px 90px;
+}
+
+.header {
+    color: #1ABC9C;
+    width: 100%;
+    text-align: center;
+}
+
+.test-edit-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 100%;
+    color: #888888;
+}
+
+.test-metadata, .question-block {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.test-metadata input, .test-metadata textarea {
+    margin-bottom: 20px;
+}
+
+.test-edit-form input {
+    height: 34px;
+}
+
+.question-header, .answer-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.score-count {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.score-count input {
+    height: 20px !important;
+    width: 50px;
+    margin-left: 10px;
+}
+
+.delete-button {
+    text-align: right;
+    padding: 10px 0 30px 0;
+}
+
+.add-question-button, .add-answer-button {
+    text-align: center;
+    padding: 10px 0 30px 0;
+}
+
+.submit-button {
+    text-align: right;
+    padding-top: 30px;
+}
+
+.delete-button button {
+    height: 25px;
+    width: 150px;
+}
+
+.add-answer-button button, .add-question-button button {
+    height: 30px;
+    width: 200px;
+}
+
+.submit-button button {
+    height: 35px;
+    width: 210px;
+}
+
+.line {
+    background-color: #888888;
+    height: 1px;
+    width: 100%;
+    margin: 30px 0;
+}

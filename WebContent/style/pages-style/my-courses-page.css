@@ -1,0 +1,82 @@
+.my-courses-container {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 1239px;
+}
+.search-form {
+    display: flex;
+    flex-direction: row;
+    margin: 30px 0 30px 0;
+    justify-content: center;
+}
+
+.search-form input {
+    width: 350px;
+    height: 35px;
+}
+
+.search-form button {
+    width: 100px;
+    height: 35px;
+}
+.courses-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1ABC9C;
+    background-color: #FFFFFF;
+    height: 90px;
+    min-width: 760px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.36);
+    margin-top: 40px;
+}
+
+.course {
+    display: flex;
+    flex-direction: row;
+    background-color: #FFFFFF;
+    height: 200px;
+    min-width: 760px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.36);
+    margin-top: 40px;
+    padding-top: 20px;
+}
+
+.course-img {
+    border: 2px solid #1ABC9C;
+    height: 100px;
+}
+
+.course-details {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: stretch;
+}
+
+.course-description {
+    display: flex;
+    flex: 1 0 auto;
+}
+
+.course-stats {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-right: -15px;
+}
+
+.course-stats p {
+    margin-right: 50px;
+}
+
+.edit-button {
+    height: 30px;
+    width: 150px;
+}
+
+.no-courses {
+    justify-content: center;
+    align-items: center;
+}
