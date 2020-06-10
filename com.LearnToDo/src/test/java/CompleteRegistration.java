@@ -22,8 +22,7 @@ public class CompleteRegistration {
     private WebElement PageOfCompleteVerification;
 
     public void conditionOfTheEndOfRegistration(){
-
-        if( callException.isDisplayed()) {
+        if(callException.isDisplayed()) {
            buttonToSignInPage.click();
         }
         else{

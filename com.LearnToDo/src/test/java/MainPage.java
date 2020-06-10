@@ -25,7 +25,7 @@ public WebDriver driver;
 
         Random random = new Random();
         int n = random.nextInt(100) + 1;
-        String email = "viktorrr" + n + "@gmail.com";
+        String email = "sa" + n + "@gmail.com";
 
         CreateAccountPage createAccount = PageFactory.initElements(driver, CreateAccountPage.class);
         createAccount.inputUserName();

@@ -8,23 +8,28 @@ public class CreateAccountPage {
 
     WebDriver driver;
     private static final String NAME = "Viktor";
+    private static final String AP_CUSTOMER_NAME = "ap_customer_name";
+    private static final String AP_EMAIL = "ap_email";
+    private static final String AP_PASSWORD = "ap_password";
+    private static final String AP_PASSWORD_CHECK = "ap_password_check";
     private static final String NumberOfPassword = "123456789";
+
 
     public CreateAccountPage(WebDriver driver, WebElement stringOfUsername){
         this.driver = driver;
         this.stringOfUsername = stringOfUsername;
     }
 
-    @FindBy(id = "ap_customer_name")
+    @FindBy(id = AP_CUSTOMER_NAME)
     private WebElement stringOfUsername;
 
-    @FindBy(id = "ap_email")
+    @FindBy(id = AP_EMAIL)
     private  WebElement stringOfEmail;
 
-    @FindBy(id = "ap_password")
+    @FindBy(id = AP_PASSWORD)
     private WebElement stringOfPassword;
 
-    @FindBy (id = "ap_password_check")
+    @FindBy (id = AP_PASSWORD_CHECK )
     private WebElement stringOFCheckPassword;
 
     @FindBy(id = "continue")
